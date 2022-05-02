@@ -1,0 +1,339 @@
+.footer{
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.elFooter{
+    flex-basis: 20%;
+
+}
+
+.first_block_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus_footer{
+    margin-bottom: 20px;
+}
+.aboutus_footer > h5{
+    text-transform: uppercase;
+    font-family: Cormorant_SC;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.aboutus_footer > p{
+    
+    font-family: Cormorant_SC;
+    
+}
+.social_footer{
+    margin-top: 20px;
+}
+.social_footer > h5{
+    text-transform: uppercase;
+    font-family: Cormorant_SC;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.kilimanjaro_social_links{
+    text-decoration: none;
+
+}
+.kilimanjaro_social_links > li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: Cormorant_SC;
+    font-weight: 600;
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    margin: 5px;
+    width: 100px;
+    text-align: center;
+}
+.kilimanjaro_social_links > li > a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footerMenu {
+    max-height: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    margin: 0 -10px;
+    -webkit-transition: max-height 1s ease-in-out;
+    -o-transition: max-height 1s ease-in-out;
+    -moz-transition: max-height 1s ease-in-out;
+    transition: max-height 1s ease-in-out;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.footerMenu.active {
+    max-height: 90vh;
+}
+
+.second_block_footer {
+    display: flex;
+    flex-direction: column;
+   
+    flex-wrap: wrap;
+    
+    padding: 3vh 0 5vh;
+    background-color: rgb(51, 51, 51);
+    -webkit-box-shadow: 0 7px 8px 0 rgb(34 60 80 / 20%);
+    -moz-box-shadow: 0 7px 8px 0 rgba(34,60,80,.2);
+    box-shadow: 0 7px 8px 0 rgb(34 60 80 / 20%);
+}
+
+.footerMenu__column {
+    padding: 10px 20px;
+}
+
+.footerMenu__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Cormorant_SC;
+    font-weight: 600;
+}
+
+.footerMenu__item {
+    margin-bottom: 10px;
+    opacity: 1;
+    transition: opacity 0.8s ease 0.5s;
+    font-family: Cormorant_SC;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    padding-left: 5px;
+    list-style: none;
+}
+
+.footerMenu__item.visible {
+    opacity: 1;
+    transition: opacity 0.8s ease 0.5s;
+}
+
+
+
+.wrapper_4_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    max-width: 400px;
+
+}
+.fourth_block_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start  ;
+}
+
+.phone_footer{
+    padding-bottom: 20px;
+    margin-right: 25px;
+}
+
+.email_footer{
+    padding-bottom: 20px;
+    margin-right: 25px;
+}
+
+.address_footer{
+    padding-bottom: 20px;
+    margin-right: 25px;
+}
+
+.h_4_block_footer{
+    text-transform: uppercase;
+    font-family: Cormorant_SC;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.p_4_block_footer{
+    font-family: Cormorant_SC;
+    font-size: 20px;
+}
+
+.formcallback_footer{
+    margin-top: 20px;
+}
+.formcallback_footer>p{
+    font-family: Cormorant_SC;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+    
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
+@media (max-width: 1200px) {
+    .elFooter{
+        flex-basis: 45%;
+    }
+    .fourth_block_footer {
+        display: flex;
+        flex-direction: unset;
+    }
+}
+@media (max-width: 768px) {
+    .elFooter{
+        flex-basis: 90%;
+    }
+    .fourth_block_footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper_4_footer {
+        justify-content: space-around;
+        max-width: 750px;
+        margin: 25px;
+    }
+}
+@media (max-width: 600px) {
+    .elFooter{
+        flex-basis: 90%;
+    }
+    .wrapper_4_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+        max-width: 320px;
+        margin: 25px;
+    }
+    .formcallback_footer>p {
+        padding-bottom: 0px;
+}}
