@@ -46,6 +46,7 @@
     flex-basis: 35%;
     font-family: Cormorant_SC;
     font-weight: 600;
+    padding: 10px;
 }
 
 @media (max-width: 768px) { 

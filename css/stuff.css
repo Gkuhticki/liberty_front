@@ -1,0 +1,133 @@
+.stuff{
+
+    justify-content: center;
+}
+
+.left_stuff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    font-family: Cormorant_SC;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 25px;
+    padding-right: 100px;
+    margin-right: 50px;
+}
+
+.right_stuff{
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini_wrapper_stuff_card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    border: #71878D 1px solid;
+    border-radius: 10px;
+    background-color: #71878D;
+    color: #ffffff;
+    transition: .5s;
+}
+.mini_wrapper_stuff_card:hover {
+    transition: .5s;
+    color: #71878D;
+    background-color: #fff;
+  
+    
+}
+.mini_wrapper_stuff_img_card{
+    
+}
+
+
+.img_stuff_card{
+    width: 100%;
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-right: 2px;
+}
+
+.mini_wrapper_stuff_title_card{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+    
+}
+
+
+.stuff_name_card{
+    text-transform: uppercase;
+    font-family: Cormorant_SC;
+    font-size: 22px;
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+}
+
+.stuff_post_card{
+    font-family: Cormorant_SC;
+    font-size: 22px;
+
+    padding-bottom: 5px;
+}
+
+.stuff_contact_card{
+    font-family: Cormorant_SC;
+    font-size: 22px;
+
+    text-align: center;
+
+}
+
+.stuff_tel_card{
+    font-family: Cormorant_SC;
+    font-size: 22px;
+
+
+}
+
+.stuff_email_card{
+    font-family: Cormorant_SC;
+    font-size: 22px;
+
+
+}
+.el_title_card{
+    margin: 7px 0px;
+}
+@media (max-width: 1110px) { 
+    .left_stuff{
+        
+        padding-right: 50px;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 800px) { 
+    .left_stuff{
+        
+        padding-right: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 600px) { 
+    .left_stuff{
+        padding: 10px;
+        max-width: 100%;
+    }
+    .right_stuff{
+        max-width: 100%;
+    }
+}
