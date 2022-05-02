@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+@font-face {
+    /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+    font-family: "Jenriv_Titling"; 
+    /* адрес шрифта и тип */
+    src: url("/fonts/Jenriv_Titling/JenrivTitling-LightItalic.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face {
+    /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+    font-family: "Cormorant_SC"; 
+    /* адрес шрифта и тип */
+    src: url("/fonts/Cormorant_SC/CormorantSC-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bolder; 
+    } 
+body {
+    
+}
+.font_jenriv {
+    font-style: normal; 
+    font-weight: normal; 
+    font-family: "Jenriv_Titling";
+}
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}

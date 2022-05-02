@@ -1,0 +1,14 @@
+<svg width="700" height="260" xmlns="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g stroke="null">
+  <title stroke="null">background</title>
+  <rect stroke="null" fill="none" id="canvas_background" height="262" width="702" y="-1" x="-1"/>
+ </g>
+ <g stroke="null" class="layer">
+  <title stroke="null">Layer 1</title>
+  <text stroke="#000000" style="vector-effect: non-scaling-stroke;" font-weight="bold" y="172.597302" xml:space="preserve" x="90.777681" transform="matrix(9.084031937710046,0,0,7.674149999999999,-477.1053559469959,-1197.6) " text-anchor="middle" stroke-width="0" id="svg_1" font-size="24" font-family="times new romans" fill="#000000">Liberty</text>
+  <line stroke="#000000" y2="183.599666" y1="183.599666" x2="727.741807" x1="-0.884447" stroke-width="5" id="svg_3" fill="none"/>
+  <text stroke="#000000" font-weight="bold" y="219.135466" xml:space="preserve" x="40.776106" transform="matrix(2.606456540923118,0,0,3.1557,244.59790337425258,-446.2536743755341) " text-anchor="middle" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" id="svg_7" font-size="24" font-family="times new romans" fill="#000000">Агенство Недвижимости</text>
+ </g>
+</svg>

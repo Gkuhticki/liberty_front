@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Jenriv Titling';
+    src: url('JenrivTitling-Light.eot');
+    src: local('Jenriv Titling Light'), local('JenrivTitling-Light'),
+        url('JenrivTitling-Light.eot?#iefix') format('embedded-opentype'),
+        url('JenrivTitling-Light.woff2') format('woff2'),
+        url('JenrivTitling-Light.woff') format('woff'),
+        url('JenrivTitling-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jenriv Titling';
+    src: url('JenrivTitling-Italic.eot');
+    src: local('Jenriv Titling Italic'), local('JenrivTitling-Italic'),
+        url('JenrivTitling-Italic.eot?#iefix') format('embedded-opentype'),
+        url('JenrivTitling-Italic.woff2') format('woff2'),
+        url('JenrivTitling-Italic.woff') format('woff'),
+        url('JenrivTitling-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jenriv Titling';
+    src: url('JenrivTitling-Bold.eot');
+    src: local('Jenriv Titling Bold'), local('JenrivTitling-Bold'),
+        url('JenrivTitling-Bold.eot?#iefix') format('embedded-opentype'),
+        url('JenrivTitling-Bold.woff2') format('woff2'),
+        url('JenrivTitling-Bold.woff') format('woff'),
+        url('JenrivTitling-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jenriv Titling';
+    src: url('JenrivTitling-LightItalic.eot');
+    src: local('Jenriv Titling Light Italic'), local('JenrivTitling-LightItalic'),
+        url('JenrivTitling-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('JenrivTitling-LightItalic.woff2') format('woff2'),
+        url('JenrivTitling-LightItalic.woff') format('woff'),
+        url('JenrivTitling-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Jenriv Titling';
+    src: url('JenrivTitling-Regular.eot');
+    src: local('Jenriv Titling Regular'), local('JenrivTitling-Regular'),
+        url('JenrivTitling-Regular.eot?#iefix') format('embedded-opentype'),
+        url('JenrivTitling-Regular.woff2') format('woff2'),
+        url('JenrivTitling-Regular.woff') format('woff'),
+        url('JenrivTitling-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jenriv Titling';
+    src: url('JenrivTitling-BoldItalic.eot');
+    src: local('Jenriv Titling Bold Italic'), local('JenrivTitling-BoldItalic'),
+        url('JenrivTitling-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('JenrivTitling-BoldItalic.woff2') format('woff2'),
+        url('JenrivTitling-BoldItalic.woff') format('woff'),
+        url('JenrivTitling-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
