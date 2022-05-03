@@ -33,6 +33,22 @@ body {
 .flex_container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 20px;
 
+}
+.hh{
+    text-transform: uppercase;
+    font-family: Cormorant_SC;
+    font-size: 40px;
+    color: #71878d;
+    text-indent: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.object_margin{
+    margin-top: 20px;
+    
+}
+.ti-hh{
+    text-indent: 150px;
 }

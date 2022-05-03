@@ -3,6 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card__item {
@@ -10,7 +12,7 @@
     border: 1px solid #ddd;
     cursor: pointer;
     margin: auto;
-    margin-bottom: 28px;
+    margin-top: 28px;
 }
 
 .card__picture {

@@ -4,17 +4,20 @@
 }
 .choice_left{
     padding: 10px;
-    flex-basis: 40%;
+    flex-basis: 60%;
     text-align: right;
 }
 .h_choice{
-    font-size: 32px;
-    padding: 7px 0;
-    color: #ebeff2;
+    text-transform: uppercase;
     font-family: Cormorant_SC;
-    font-weight: 600;
+    font-size: 40px;
+    color: #ebeff2;
+    text-indent: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .text_choice{
+    margin-top: 20px;
     color: #ebeff2;
     font-family: Cormorant_SC;
     font-weight: 600;
