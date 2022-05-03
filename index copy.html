@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberty AS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/partners.css">
+    <link rel="stylesheet" href="css/choice.css">
+    <link rel="stylesheet" href="css/benefit.css">
+    <link rel="stylesheet" href="css/stuff.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="left_header"><img class="logo_img" src="images/logo.svg" alt=""></div>
+        </div>
+        <div class="center_header">
+            <ul class="ul_menu menu-main">
+                <li class="li_menu"><a class="a_menu current" href="">Главная</a></li>
+                <li class="li_menu"><a class="a_menu" href="">Объекты</a></li>
+                <li class="li_menu"><a class="a_menu" href="">Контакты</a></li>
+                <li class="li_menu"><a class="a_menu" href="">О нас</a></li>
+                <li class="li_menu"><a class="a_menu" href="">Сотрудники</a></li>
+            </ul>
+        </div>
+        <div class="right_header">
+            <div id="burgerButton" class="burger">
+                <span class="burger-text">Меню</span>
+                <button type="button" class="burger-button" title="Меню">
+                    <span class="burger-bar burger-bar--1"></span>
+                    <span class="burger-bar burger-bar--2"></span>
+                    <span class="burger-bar burger-bar--3"></span>
+                </button>
+            </div>
+            <a href="tel:+78002002020" class="callback_container column center-content">
+                <div class="picture"><svg viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="phone">
+                        <path
+                            d="M22.5527 18.2887L20.003 16.5887L17.7363 15.0779C17.2988 14.7868 16.7109 14.8822 16.388 15.2968L14.9854 17.0999C14.6841 17.4911 14.1422 17.6036 13.7101 17.3643C12.7584 16.835 11.633 16.3365 9.14983 13.8502C6.66667 11.3638 6.16503 10.2416 5.63563 9.28987C5.39642 8.85782 5.50886 8.31584 5.90013 8.0146L7.70323 6.61202C8.11771 6.28912 8.21317 5.70124 7.92213 5.26375L6.45769 3.06687L4.71128 0.447238C4.41404 0.00134857 3.81901 -0.132517 3.35947 0.143075L1.34537 1.35137C0.801061 1.67206 0.400946 2.18992 0.227909 2.79757C-0.322872 4.80569 -0.433917 9.23552 6.66545 16.3349C13.7648 23.4343 18.1942 23.3229 20.2024 22.772C20.81 22.599 21.3279 22.1989 21.6486 21.6546L22.8569 19.6405C23.1325 19.1809 22.9986 18.5859 22.5527 18.2887Z"
+                            fill="#333333" class="tube"></path>
+                        <path
+                            d="M13.086 3.56848C16.8073 3.57261 19.8231 6.58836 19.8273 10.3098C19.8273 10.5288 20.0048 10.7063 20.2238 10.7063C20.4428 10.7063 20.6204 10.5288 20.6204 10.3098C20.6158 6.15056 17.2452 2.77997 13.086 2.77539C12.867 2.77539 12.6895 2.95292 12.6895 3.17196C12.6894 3.3909 12.8669 3.56848 13.086 3.56848Z"
+                            fill="#333333" class="third-wave"></path>
+                        <path
+                            d="M13.086 5.94841C15.4939 5.95124 17.4452 7.90253 17.448 10.3104C17.448 10.5294 17.6255 10.707 17.8446 10.707C18.0636 10.707 18.2411 10.5294 18.2411 10.3104C18.2379 7.46468 15.9318 5.15855 13.086 5.15527C12.867 5.15527 12.6895 5.3328 12.6895 5.55184C12.6895 5.77088 12.867 5.94841 13.086 5.94841Z"
+                            fill="#333333" class="second-wave"></path>
+                        <path
+                            d="M13.086 8.32727C14.1805 8.32857 15.0674 9.2155 15.0687 10.31C15.0687 10.529 15.2462 10.7066 15.4653 10.7066C15.6843 10.7066 15.8618 10.529 15.8618 10.31C15.8601 8.77769 14.6183 7.53593 13.086 7.53418C12.867 7.53418 12.6895 7.71171 12.6895 7.93074C12.6894 8.14974 12.8669 8.32727 13.086 8.32727Z"
+                            fill="#333333" class="first-wave"></path>
+                    </svg></div>
+                <div class="callback_text text center-content">8 800 200 20 20</div>
+            </a>
+        </div>
+        <div id="burgerMenu" class="burgerMenu">
+            <div class="burgerMenu__wrapper">
+                <div class="burgerMenu__column">
+                    <div class="burgerMenu__title">Заголовок</div>
+                    <ul class="burgerMenu__items">
+                        <li class="burgerMenu__item">Меню 1</li>
+                        <li class="burgerMenu__item">Меню 2</li>
+                        <li class="burgerMenu__item">Меню 3</li>
+                        <li class="burgerMenu__item">Меню 4</li>
+                        <li class="burgerMenu__item">Меню 5</li>
+                    </ul>
+                </div>
+                <div class="burgerMenu__column">
+                    <div class="burgerMenu__title">Заголовок</div>
+                    <ul class="burgerMenu__items">
+                        <li class="burgerMenu__item">Меню 1</li>
+                        <li class="burgerMenu__item">Меню 2</li>
+                        <li class="burgerMenu__item">Меню 3</li>
+                        <li class="burgerMenu__item">Меню 4</li>
+                        <li class="burgerMenu__item">Меню 5</li>
+                    </ul>
+                </div>
+                <div class="burgerMenu__column">
+                    <div class="burgerMenu__title">Заголовок</div>
+                    <ul class="burgerMenu__items">
+                        <li class="burgerMenu__item">Меню 1</li>
+                        <li class="burgerMenu__item">Меню 2</li>
+                        <li class="burgerMenu__item">Меню 3</li>
+                        <li class="burgerMenu__item">Меню 4</li>
+                        <li class="burgerMenu__item">Меню 5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main_container">
+        <!--Слайдер-->
+        <div class="flex_container slider">
+            <div class="itcss itcss--desktop">
+                <div class="itcss__wrapper">
+                    <div class="itcss__items">
+                        <div class="itcss__item">
+                            <img src="images/slider/slide1.jpg" alt="">
+                        </div>
+                        <div class="itcss__item">
+                            <img src="images/slider/slide2.jpg" alt="">
+                        </div>
+                        <div class="itcss__item">
+                            <img src="images/slider/slide3.jpg" alt="">
+                        </div>
+                        <div class="itcss__item">
+                            <img src="images/slider/slide4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+                <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
+                <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+            </div>
+
+            <div class="itcss itcss--mobile">
+                <div class="itcss__wrapper">
+                    <div class="itcss__items">
+                        <div class="itcss__item">
+                            <img src="images/slider/slide1.jpg" alt="">
+                        </div>
+                        <div class="itcss__item">
+                            <img src="images/slider/slide2.jpg" alt="">
+                        </div>
+                        <div class="itcss__item">
+                            <img src="images/slider/slide3.jpg" alt="">
+                        </div>
+                        <div class="itcss__item">
+                            <img src="images/slider/slide4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+                <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
+                <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+            </div>
+        </div>
+        <!--Объекты-->
+        
+        <div class="hh ti-hh object_margin">Горячие предложения</div>
+        <div class="flex_container object card-container">
+            <a href="#" class="card__item">
+                <div class="card__picture">
+                    <img class="card__img" src="images/test.webp" alt="">
+                    <div class="card__shadow"></div>
+                    <div class="card__text">
+                        <div class="card__name" href="#">Какое то топ название</div>
+                        <div class="card__location">г. Сочи ул. Какая то. д. 14</div>
+                        <div class="card__link">
+                            <span>Подробнее</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 23 41"
+                                fill="none">
+                                <path
+                                    d="M22.1881 19.0368L3.75061 0.60541C2.94159 -0.201574 1.63083 -0.201574 0.819765 0.60541C0.010738 1.41239 0.0107379 2.72314 0.819765 3.53013L17.7948 20.4991L0.821806 37.468C0.0127795 38.275 0.0127794 39.5857 0.821806 40.3948C1.63083 41.2017 2.94362 41.2017 3.75265 40.3948L22.1902 21.9636C22.9868 21.1649 22.9868 19.8336 22.1881 19.0368Z"
+                                    fill="white"></path>
+                            </svg>
+                        </div>
+                        <div class="card__data">
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="card__item">
+                <div class="card__picture">
+                    <img class="card__img" src="images/test.webp" alt="">
+                    <div class="card__shadow"></div>
+                    <div class="card__text">
+                        <div class="card__name" href="#">Какое то топ название</div>
+                        <div class="card__location">г. Сочи ул. Какая то. д. 14</div>
+                        <div class="card__link">
+                            <span>Подробнее</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 23 41"
+                                fill="none">
+                                <path
+                                    d="M22.1881 19.0368L3.75061 0.60541C2.94159 -0.201574 1.63083 -0.201574 0.819765 0.60541C0.010738 1.41239 0.0107379 2.72314 0.819765 3.53013L17.7948 20.4991L0.821806 37.468C0.0127795 38.275 0.0127794 39.5857 0.821806 40.3948C1.63083 41.2017 2.94362 41.2017 3.75265 40.3948L22.1902 21.9636C22.9868 21.1649 22.9868 19.8336 22.1881 19.0368Z"
+                                    fill="white"></path>
+                            </svg>
+                        </div>
+                        <div class="card__data">
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="card__item">
+                <div class="card__picture">
+                    <img class="card__img" src="images/test.webp" alt="">
+                    <div class="card__shadow"></div>
+                    <div class="card__text">
+                        <div class="card__name" href="#">Какое то топ название</div>
+                        <div class="card__location">г. Сочи ул. Какая то. д. 14</div>
+                        <div class="card__link">
+                            <span>Подробнее</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 23 41"
+                                fill="none">
+                                <path
+                                    d="M22.1881 19.0368L3.75061 0.60541C2.94159 -0.201574 1.63083 -0.201574 0.819765 0.60541C0.010738 1.41239 0.0107379 2.72314 0.819765 3.53013L17.7948 20.4991L0.821806 37.468C0.0127795 38.275 0.0127794 39.5857 0.821806 40.3948C1.63083 41.2017 2.94362 41.2017 3.75265 40.3948L22.1902 21.9636C22.9868 21.1649 22.9868 19.8336 22.1881 19.0368Z"
+                                    fill="white"></path>
+                            </svg>
+                        </div>
+                        <div class="card__data">
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="card__item">
+                <div class="card__picture">
+                    <img class="card__img" src="images/test.webp" alt="">
+                    <div class="card__shadow"></div>
+                    <div class="card__text">
+                        <div class="card__name" href="#">Какое то топ название</div>
+                        <div class="card__location">г. Сочи ул. Какая то. д. 14</div>
+                        <div class="card__link">
+                            <span>Подробнее</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 23 41"
+                                fill="none">
+                                <path
+                                    d="M22.1881 19.0368L3.75061 0.60541C2.94159 -0.201574 1.63083 -0.201574 0.819765 0.60541C0.010738 1.41239 0.0107379 2.72314 0.819765 3.53013L17.7948 20.4991L0.821806 37.468C0.0127795 38.275 0.0127794 39.5857 0.821806 40.3948C1.63083 41.2017 2.94362 41.2017 3.75265 40.3948L22.1902 21.9636C22.9868 21.1649 22.9868 19.8336 22.1881 19.0368Z"
+                                    fill="white"></path>
+                            </svg>
+                        </div>
+                        <div class="card__data">
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="card__item">
+                <div class="card__picture">
+                    <img class="card__img" src="images/test.webp" alt="">
+                    <div class="card__shadow"></div>
+                    <div class="card__text">
+                        <div class="card__name" href="#">Какое то топ название</div>
+                        <div class="card__location">г. Сочи ул. Какая то. д. 14</div>
+                        <div class="card__link">
+                            <span>Подробнее</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 23 41"
+                                fill="none">
+                                <path
+                                    d="M22.1881 19.0368L3.75061 0.60541C2.94159 -0.201574 1.63083 -0.201574 0.819765 0.60541C0.010738 1.41239 0.0107379 2.72314 0.819765 3.53013L17.7948 20.4991L0.821806 37.468C0.0127795 38.275 0.0127794 39.5857 0.821806 40.3948C1.63083 41.2017 2.94362 41.2017 3.75265 40.3948L22.1902 21.9636C22.9868 21.1649 22.9868 19.8336 22.1881 19.0368Z"
+                                    fill="white"></path>
+                            </svg>
+                        </div>
+                        <div class="card__data">
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="card__item">
+                <div class="card__picture">
+                    <img class="card__img" src="images/test.webp" alt="">
+                    <div class="card__shadow"></div>
+                    <div class="card__text">
+                        <div class="card__name" href="#">Какое то топ название</div>
+                        <div class="card__location">г. Сочи ул. Какая то. д. 14</div>
+                        <div class="card__link">
+                            <span>Подробнее</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 23 41"
+                                fill="none">
+                                <path
+                                    d="M22.1881 19.0368L3.75061 0.60541C2.94159 -0.201574 1.63083 -0.201574 0.819765 0.60541C0.010738 1.41239 0.0107379 2.72314 0.819765 3.53013L17.7948 20.4991L0.821806 37.468C0.0127795 38.275 0.0127794 39.5857 0.821806 40.3948C1.63083 41.2017 2.94362 41.2017 3.75265 40.3948L22.1902 21.9636C22.9868 21.1649 22.9868 19.8336 22.1881 19.0368Z"
+                                    fill="white"></path>
+                            </svg>
+                        </div>
+                        <div class="card__data">
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                            <div class="card__dataColumn">
+                                <div class="card__dataHeader">Категория</div>
+                                <div class="card__dataValue">Апартаменты</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!--Бенефиты-->
+        <div class="hh ti-hh">Наши преимущества</div>
+        <div class="flex_container benefit">
+            <div class="mini_wrapper_benefit">
+                <div class="benefit_header">Причина</div>
+                <div class="benefit_text">Просто текст для того что бы хоть как тозаполни это пространство даже не знаю
+                    что сюда писать но что то придумать надто</div>
+            </div>
+            <div class="mini_wrapper_benefit">
+                <div class="benefit_header">Причина</div>
+                <div class="benefit_text">Просто текст для того что бы хоть как тозаполни это пространство даже не знаю
+                    что сюда писать но что то придумать надто</div>
+            </div>
+            <div class="mini_wrapper_benefit">
+                <div class="benefit_header">Причина</div>
+                <div class="benefit_text">Просто текст для того что бы хоть как тозаполни это пространство даже не знаю
+                    что сюда писать но что то придумать надто</div>
+            </div>
+            <div class="mini_wrapper_benefit">
+                <div class="benefit_header">Причина</div>
+                <div class="benefit_text">Просто текст для того что бы хоть как тозаполни это пространство даже не знаю
+                    что сюда писать но что то придумать надто</div>
+            </div>
+        </div>
+        <!--Большой выбор-->
+        <div class="flex_container choice">
+            <div class="choice_left">
+                <div class="h_choice ">Большой выбор недвижимости</div>
+                <div class="text_choice">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                    несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                    отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали
+                    небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до
+                    десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+                    визуально-слухового восприятия. По своей сути рыбатекст является альтернативой традиционному lorem
+                    ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от
+                    lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст
+                    неповторимый колорит советских времен.
+                </div>
+            </div>
+            <div class="choice_right">
+                <div class="wrapper_choice_right"><img src="/images/choice.jpg" class="img_choice" alt=""></div>
+            </div>
+        </div>
+        <!--Партнеры-->
+        <div class="hh ti-hh">Наши партнеры</div>
+        <div class="flex_container partners">
+            <div class="partners left left_partners">
+                <div class="box_cards_partners">
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                    <div class="card_partner"><img src="/images/alfa.webp" alt="" class="img_partner"></div>
+                </div>
+            </div>
+            <div class="partners right right_partners">
+                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                    выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
+                    универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений
+                    в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового
+                    восприятия.
+
+                    По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                    некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на
+                    русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских
+                    времен.</p>
+            </div>
+        </div>
+        <!--Сотрудники-->
+        <div class="hh ti-hh">О нас</div>
+        <div class="flex_container stuff">
+            <div class="stuff left left_stuff">
+                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                    выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
+                    универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений
+                    в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового
+                    восприятия.
+
+                    По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                    некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на
+                    русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских
+                    времен.</p>
+            </div>
+            <div class="stuff right right_stuff">
+
+                <div class="mini_wrapper_stuff_card">
+                    <div class="mini_wrapper_stuff_img_card"><img src="/images/choice.jpg" class="img_stuff_card"
+                            alt=""></div>
+                    <div class="mini_wrapper_stuff_title_card">
+                        <div class="stuff_name_card el_title_card">Фамилия<br>Имя Отчество</div>
+                        <div class="stuff_post_card el_title_card">Генеральный директор</div>
+                        <div class="stuff_contact_card el_title_card">
+                            <div class="stuff_tel_card">+7 900 252 25 25</div>
+                            <div class="stuff_email_card">direktor@lyberty.ru</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="first_block_footer elFooter">
+            <div class="aboutus_footer">
+                <h5>О нас</h5>
+                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+                    выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
+                    универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений
+                    в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового
+                    восприятия.</p>
+            </div>
+            <div class="social_footer">
+                <h5>Social Links</h5>
+                <ul class="kilimanjaro_social_links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="second_block_footer elFooter">
+            <div class="footerMenu__column">
+                <div class="footerMenu__title">Заголовок</div>
+                <ul class="footerMenu__items">
+                    <li class="footerMenu__item">Меню 1</li>
+                    <li class="footerMenu__item">Меню 2</li>
+                    <li class="footerMenu__item">Меню 3</li>
+                    <li class="footerMenu__item">Меню 4</li>
+                    <li class="footerMenu__item">Меню 5</li>
+                </ul>
+            </div>
+            <div class="footerMenu__column">
+                <div class="footerMenu__title">Заголовок</div>
+                <ul class="footerMenu__items">
+                    <li class="footerMenu__item">Меню 1</li>
+                    <li class="footerMenu__item">Меню 2</li>
+                    <li class="footerMenu__item">Меню 3</li>
+                    <li class="footerMenu__item">Меню 4</li>
+                    <li class="footerMenu__item">Меню 5</li>
+                </ul>
+            </div>
+            <div class="footerMenu__column">
+                <div class="footerMenu__title">Заголовок</div>
+                <ul class="footerMenu__items">
+                    <li class="footerMenu__item">Меню 1</li>
+                    <li class="footerMenu__item">Меню 2</li>
+                    <li class="footerMenu__item">Меню 3</li>
+                    <li class="footerMenu__item">Меню 4</li>
+                    <li class="footerMenu__item">Меню 5</li>
+                </ul>
+            </div>
+        </div>
+        <div class="fourth_block_footer "> <div class="wrapper_4_footer">
+            <div class="phone_footer"><h5 class="h_4_block_footer">Phone:</h5><p class="p_4_block_footer">+7 900 252 25 25<br>+7 900 555 72 52</p></div>
+            <div class="email_footer"><h5 class="h_4_block_footer">Email:</h5><p class="p_4_block_footer">direktor@lyberty.ru<br>realtor1@liberty.ru</p></div>
+            <div class="address_footer"><h5 class="h_4_block_footer">Address:</h5><p class="p_4_block_footer">г. Сочи,<br>ул. Какая то,<br>д. 14</p></div></div>
+            <div class="formcallback_footer footer-distributed"><p>Contact Us</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form></div>
+        </div>
+    </footer>
+
+    <script defer src="js/simple-adaptive-slider.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+
+
+</body>
+
+</html>
